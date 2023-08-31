@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
-    <title>Image Slider</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="index.js" defer></script>
+  <title>Image Slider</title>
 </head>
 <body>
-    <h1>Image Slider</h1>
-    <div class="container">
-      <div class="image-card">
-        <img src="https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" />
+  <h1>Image Slider</h1>
+  <div class="container">
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <div class="carousel">
+        <img draggable="false" src="https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg" />
+        <img draggable="false" src="https://images.unsplash.com/photo-1522865080725-2a9ea1fcb94e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNTYwNjEwfHxlbnwwfHx8fHw%3D&w=1000&q=80" />
+        <img draggable="false" src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9ufGVufDB8fDB8fHww&w=1000&q=80" />
+        <img draggable="false" src="https://w0.peakpx.com/wallpaper/452/376/HD-wallpaper-rincon-beach-puerto-rico-water-puerto-rico-beach-sunset.jpg" />
+        <img draggable="false" src="https://wallpapers.com/images/hd/puerto-rico-nature-scenic-spot-hag9uq7l93gckj80.jpg" />
+        <img draggable="false" src="https://i.pinimg.com/736x/99/c2/9a/99c29a82edfa499182c1387953cba5e8.jpg" />
+        <img draggable="false" src="https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stephan-seeber-1261728.jpg&fm=jpg"/>
+        <img draggable="false" src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?cs=srgb&dl=pexels-baskin-creative-studios-1766838.jpg&fm=jpg" />
+        <img draggable="false" src="https://w.forfun.com/fetch/c2/c2d2f2cc83cb74e1adfe697c899f4d73.jpeg" />
       </div>
-      <div class="image-card">
-        <img src="https://images.unsplash.com/photo-1522865080725-2a9ea1fcb94e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNTYwNjEwfHxlbnwwfHx8fHw%3D&w=1000&q=80" />
-      </div>
-      <div class="image-card">
-        <img src="https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9ufGVufDB8fDB8fHww&w=1000&q=80" />
-      </div>
-      <div class="image-card">
-        <img src="https://w0.peakpx.com/wallpaper/452/376/HD-wallpaper-rincon-beach-puerto-rico-water-puerto-rico-beach-sunset.jpg" />
-      </div>
-      <div class="image-card">
-        <img src="https://wallpapers.com/images/hd/puerto-rico-nature-scenic-spot-hag9uq7l93gckj80.jpg" />
-      </div>
-      <div class="image-card">
-        <img src="https://i.pinimg.com/736x/99/c2/9a/99c29a82edfa499182c1387953cba5e8.jpg" />
-      </div>
-      <div class="image-card">
-        <img src="https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stephan-seeber-1261728.jpg&fm=jpg"/>
-      </div>
-      <div class="image-card">
-        <img src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?cs=srgb&dl=pexels-baskin-creative-studios-1766838.jpg&fm=jpg" />
-      </div>
-      <div class="image-card">
-        <img src="https://w.forfun.com/fetch/c2/c2d2f2cc83cb74e1adfe697c899f4d73.jpeg" />
-      </div>
+      <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
+  </div>
 </body>
 </html>
