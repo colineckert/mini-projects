@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+
+.image-card {
+  height: 100%;
+}
+
+.image-card > img {
+  max-height: 310px;
+  width: auto;
+  border-radius: 3%;
+}
