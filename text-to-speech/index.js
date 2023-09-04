@@ -8,7 +8,7 @@ const speakText = () => {
   utterance.rate = 1;
   utterance.lang = 'en-US';
 
-  console.log(utterance, text, voiceSelect.value);
+  console.log(utterance, text);
 
   speechSynthesis.speak(utterance);
 };
